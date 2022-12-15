@@ -11,7 +11,8 @@
         android:id="@+id/buttonHolaMundo"
         android:layout_width="209dp"
         android:layout_height="94dp"
-        android:text="Hola Mundo"
+        android:text="@string/hola_mundo"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="325dp" />
+        tools:layout_editor_absoluteY="325dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
